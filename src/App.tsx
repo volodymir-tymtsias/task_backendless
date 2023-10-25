@@ -1,14 +1,18 @@
-import React from 'react';
-import './App.css';
+import { Navigate, Route, Routes } from 'react-router-dom';
+import 'bulma/css/bulma.css';
+import { TabPage } from './components/TabPage';
 
-function App() {
+
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
+    <div className="container">
+      <Routes>
+        <Route path="/">
+          <Route index element={<TabPage />} />
+          <Route path=":tabId" element={<TabPage />} />
+        </Route>
+        <Route path="home" element={<Navigate to="/" replace />} />
+      </Routes>
     </div>
   );
 }
-
-export default App;
