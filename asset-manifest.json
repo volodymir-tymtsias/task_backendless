@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/task_backendless/static/css/main.073c9b0a.css",
+    "main.js": "/task_backendless/static/js/main.e8827dbd.js",
+    "index.html": "/task_backendless/index.html",
+    "main.073c9b0a.css.map": "/task_backendless/static/css/main.073c9b0a.css.map",
+    "main.e8827dbd.js.map": "/task_backendless/static/js/main.e8827dbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e8827dbd.js"
+  ]
+}
